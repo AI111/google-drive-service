@@ -1,20 +1,32 @@
 {
   "name": "google-drive-service",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "start": "node build/app.js",
-    "dev": "nodemon build/app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "version": "0.0.0",
+  "description": "node-typescript",
+  "license": "MIT",
+  "repository": "",
   "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.14.0"
+    "bluebird": "^3.4.6",
+    "debug": "^2.2.0",
+    "google-auth-library": "^0.9.8",
+    "googleapis": "^14.0.0",
+    "node-uuid": "^1.4.7",
+    "seneca": "^3.2.1"
   },
   "devDependencies": {
-    "@types/node": "^6.0.45",
-    "nodemon": "^1.8.1"
-  }
+    "@types/chai": "3.4.30",
+    "@types/mocha": "2.2.29",
+    "chai": "3.5.0",
+    "del": "^2.2.1",
+    "dotbin": "^1.0",
+    "gulp": "^3.9.0",
+    "gulp-help": "^1.6.0",
+    "gulp-mocha": "^3.0.0",
+    "gulp-tslint": "^6.0",
+    "ts-node": "^1.2.2",
+    "tslint": "3.14.0-dev.1",
+    "typescript": "2.0.0"
+  },
+  "main": "src/index.js",
+  "typings": "src/index.d.ts"
 }

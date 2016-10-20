@@ -1,5 +1,7 @@
-
+.idea
 node_modules
 .vscode
-build
-typings
+typings/
+/node_modules/
+client_secret_1029260356342-2rgcb9kqulkf777lbg2t8stvks9gs7qd.apps.googleusercontent.com.json
+dst/

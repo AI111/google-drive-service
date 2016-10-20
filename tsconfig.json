@@ -1,15 +1,19 @@
 {
-	
-	"compilerOptions": {
-		"target": "es5",
-		"module": "commonjs", 
-		"emitDecoratorMetadata": true,
-		"experimentalDecorators": true,
-		"outDir": "build" 
-	},
-	"exclude": [
-		"node_modules", 
-	    "typings",
-		"client" 
-	]
+    "compilerOptions": {
+        "declaration": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "outDir": "./dst",
+        "preserveConstEnums": true,
+        "removeComments": true
+    },
+    "include": [
+        "src/**/*",
+        "typings/tsd.d.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*-spec.ts"
+    ]
 }
